@@ -1,0 +1,507 @@
+[
+  {
+    "index": 1,
+    "source_slide": 1,
+    "title": "What ResearchBoost creates",
+    "kind": "promo_card",
+    "source": "../../../slides/research-boost-promo/ResearchBoost-Promo-Cards.pdf",
+    "start_seconds": 0.0,
+    "end_seconds": 19.0,
+    "duration_seconds": 19.0,
+    "frame": "slide-01.png"
+  },
+  {
+    "index": 2,
+    "source_slide": 2,
+    "title": "From LLM-agent coordination to robot teams",
+    "kind": "promo_card",
+    "source": "../../../slides/research-boost-promo/ResearchBoost-Promo-Cards.pdf",
+    "start_seconds": 19.0,
+    "end_seconds": 39.15,
+    "duration_seconds": 20.15,
+    "frame": "slide-02.png"
+  },
+  {
+    "index": 3,
+    "source_slide": 1,
+    "title": "Multi-Agent Coordination",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 39.15,
+    "end_seconds": 49.0,
+    "duration_seconds": 9.85,
+    "frame": "slide-03.png"
+  },
+  {
+    "index": 4,
+    "source_slide": 2,
+    "title": "Agenda",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 49.0,
+    "end_seconds": 58.4,
+    "duration_seconds": 9.4,
+    "frame": "slide-04.png"
+  },
+  {
+    "index": 5,
+    "source_slide": 3,
+    "title": "Two robots must coordinate to lift one basket",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 58.4,
+    "end_seconds": 68.225,
+    "duration_seconds": 9.825,
+    "frame": "slide-05.png"
+  },
+  {
+    "index": 6,
+    "source_slide": 4,
+    "title": "Expanded keyword matches per 1,000 records rose after 2023",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 68.225,
+    "end_seconds": 77.975,
+    "duration_seconds": 9.75,
+    "frame": "slide-06.png"
+  },
+  {
+    "index": 7,
+    "source_slide": 5,
+    "title": "Adaptive coordination leads the 2026 coded subset",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 77.975,
+    "end_seconds": 89.75,
+    "duration_seconds": 11.775,
+    "frame": "slide-07.png",
+    "animation_frames": [
+      {
+        "image": "annual-views/2022.png",
+        "label": "2022",
+        "duration_seconds": 1.25,
+        "sha256": "2efa8f483b3104976c5adcdb89ba1d9ec64bb19c142ba031880d429c7bc38bf9"
+      },
+      {
+        "image": "annual-views/2023.png",
+        "label": "2023",
+        "duration_seconds": 1.25,
+        "sha256": "45412acc66c80e9f8772f4e2a558572eda6d1a0c1587a7681cd8720a2e2f6592"
+      },
+      {
+        "image": "annual-views/2024.png",
+        "label": "2024",
+        "duration_seconds": 1.25,
+        "sha256": "7175e1bf2709ade7ff6f208c9ec2c03d9b2902d71aced9f2a08ae3be4ad4ad9c"
+      },
+      {
+        "image": "annual-views/2025.png",
+        "label": "2025",
+        "duration_seconds": 1.25,
+        "sha256": "756200464575d7a9fe948f9f44141cb197c848cf86c7bf36a5d5e185bbfc7fec"
+      },
+      {
+        "image": "annual-views/2026.png",
+        "label": "2026",
+        "duration_seconds": 6.775,
+        "sha256": "138976b4e26955cc15f3cf96fd9f816ca7347f3d6aea7bd984e75953c559660d"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "source_slide": 6,
+    "title": "Adaptation and learned coordination lead the coded subset",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 89.75,
+    "end_seconds": 99.425,
+    "duration_seconds": 9.675,
+    "frame": "slide-08.png"
+  },
+  {
+    "index": 9,
+    "source_slide": 7,
+    "title": "Robotics ranks third among evaluated application domains",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 99.425,
+    "end_seconds": 107.175,
+    "duration_seconds": 7.75,
+    "frame": "slide-09.png"
+  },
+  {
+    "index": 10,
+    "source_slide": 8,
+    "title": "Robotics adds physical constraints to coordination",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 107.175,
+    "end_seconds": 119.5,
+    "duration_seconds": 12.325,
+    "frame": "slide-10.png"
+  },
+  {
+    "index": 11,
+    "source_slide": 9,
+    "title": "Robotics spans five research directions in this sample",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 119.5,
+    "end_seconds": 129.95,
+    "duration_seconds": 10.45,
+    "frame": "slide-11.png"
+  },
+  {
+    "index": 12,
+    "source_slide": 10,
+    "title": "Simulation is more common than physical execution",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 129.95,
+    "end_seconds": 141.475,
+    "duration_seconds": 11.525,
+    "frame": "slide-12.png"
+  },
+  {
+    "index": 13,
+    "source_slide": 11,
+    "title": "Multi-robot coordination appears in 49 per 1,000 titles",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 141.475,
+    "end_seconds": 152.5,
+    "duration_seconds": 11.025,
+    "frame": "slide-13.png"
+  },
+  {
+    "index": 14,
+    "source_slide": 12,
+    "title": "Coordination protects flow and makes joint work possible",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 152.5,
+    "end_seconds": 162.775,
+    "duration_seconds": 10.275,
+    "frame": "slide-14.png"
+  },
+  {
+    "index": 15,
+    "source_slide": 13,
+    "title": "Coordinating warehouse traffic reduces blocking",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 162.775,
+    "end_seconds": 173.25,
+    "duration_seconds": 10.475,
+    "frame": "slide-15.png"
+  },
+  {
+    "index": 16,
+    "source_slide": 14,
+    "title": "Coordination aligns roles and handoffs",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 173.25,
+    "end_seconds": 183.75,
+    "duration_seconds": 10.5,
+    "frame": "slide-16.png"
+  },
+  {
+    "index": 17,
+    "source_slide": 15,
+    "title": "Fleet operators, labs and standards groups tackle coordination",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 183.75,
+    "end_seconds": 193.925,
+    "duration_seconds": 10.175,
+    "frame": "slide-17.png"
+  },
+  {
+    "index": 18,
+    "source_slide": 16,
+    "title": "Robot architectures differ in who can change the plan",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 193.925,
+    "end_seconds": 204.9,
+    "duration_seconds": 10.975,
+    "frame": "slide-18.png"
+  },
+  {
+    "index": 19,
+    "source_slide": 17,
+    "title": "Three changes drove new coordination questions",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 204.9,
+    "end_seconds": 213.775,
+    "duration_seconds": 8.875,
+    "frame": "slide-19.png"
+  },
+  {
+    "index": 20,
+    "source_slide": 18,
+    "title": "From assigning jobs to adapting robot teams",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 213.775,
+    "end_seconds": 221.825,
+    "duration_seconds": 8.05,
+    "frame": "slide-20.png"
+  },
+  {
+    "index": 21,
+    "source_slide": 19,
+    "title": "Classical routing handled 1,000 agents in simulation",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 221.825,
+    "end_seconds": 231.7,
+    "duration_seconds": 9.875,
+    "frame": "slide-21.png"
+  },
+  {
+    "index": 22,
+    "source_slide": 20,
+    "title": "CERBERUS kept robots operating with limited communication",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 231.7,
+    "end_seconds": 241.275,
+    "duration_seconds": 9.575,
+    "frame": "slide-22.png"
+  },
+  {
+    "index": 23,
+    "source_slide": 21,
+    "title": "RoCo pairs dialogue with motion checks",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 241.275,
+    "end_seconds": 250.75,
+    "duration_seconds": 9.475,
+    "frame": "slide-23.png"
+  },
+  {
+    "index": 24,
+    "source_slide": 22,
+    "title": "PARTNR makes coordination failures visible at scale",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 250.75,
+    "end_seconds": 262.1,
+    "duration_seconds": 11.35,
+    "frame": "slide-24.png"
+  },
+  {
+    "index": 25,
+    "source_slide": 23,
+    "title": "How we select works for the Current Frontier",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 262.1,
+    "end_seconds": 273.975,
+    "duration_seconds": 11.875,
+    "frame": "slide-25.png"
+  },
+  {
+    "index": 26,
+    "source_slide": 24,
+    "title": "Four problems can stop a robot team",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 273.975,
+    "end_seconds": 286.175,
+    "duration_seconds": 12.2,
+    "frame": "slide-26.png"
+  },
+  {
+    "index": 27,
+    "source_slide": 25,
+    "title": "RoboBallet plans tasks and motions jointly for robot arms",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 286.175,
+    "end_seconds": 297.2,
+    "duration_seconds": 11.025,
+    "frame": "slide-27.png"
+  },
+  {
+    "index": 28,
+    "source_slide": 26,
+    "title": "RoboBallet learns one joint action for the workcell",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 297.2,
+    "end_seconds": 307.575,
+    "duration_seconds": 10.375,
+    "frame": "slide-28.png"
+  },
+  {
+    "index": 29,
+    "source_slide": 27,
+    "title": "RoboBallet approaches the exhaustive baseline\u2019s trajectory cost",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 307.575,
+    "end_seconds": 317.5,
+    "duration_seconds": 9.925,
+    "frame": "slide-29.png"
+  },
+  {
+    "index": 30,
+    "source_slide": 28,
+    "title": "CHORUS trains one policy and runs it locally on each robot",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 317.5,
+    "end_seconds": 326.975,
+    "duration_seconds": 9.475,
+    "frame": "slide-30.png"
+  },
+  {
+    "index": 31,
+    "source_slide": 29,
+    "title": "CHORUS fits one flow-matching policy to every robot\u2019s view",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 326.975,
+    "end_seconds": 337.625,
+    "duration_seconds": 10.65,
+    "frame": "slide-31.png"
+  },
+  {
+    "index": 32,
+    "source_slide": 30,
+    "title": "Shared weights help CHORUS recover a perturbed handover",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 337.625,
+    "end_seconds": 347.975,
+    "duration_seconds": 10.35,
+    "frame": "slide-32.png"
+  },
+  {
+    "index": 33,
+    "source_slide": 31,
+    "title": "CHORUS reached 90% on one three-robot transport task",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 347.975,
+    "end_seconds": 358.0,
+    "duration_seconds": 10.025,
+    "frame": "slide-33.png"
+  },
+  {
+    "index": 34,
+    "source_slide": 32,
+    "title": "RoboTalk learns messages and tool calls from the same traces",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 358.0,
+    "end_seconds": 368.375,
+    "duration_seconds": 10.375,
+    "frame": "slide-34.png"
+  },
+  {
+    "index": 35,
+    "source_slide": 33,
+    "title": "RoboTalk improves held-out tasks with supervised traces",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 368.375,
+    "end_seconds": 379.525,
+    "duration_seconds": 11.15,
+    "frame": "slide-35.png"
+  },
+  {
+    "index": 36,
+    "source_slide": 34,
+    "title": "New teammates and larger teams require separate tests",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 379.525,
+    "end_seconds": 391.1,
+    "duration_seconds": 11.575,
+    "frame": "slide-36.png"
+  },
+  {
+    "index": 37,
+    "source_slide": 35,
+    "title": "HOLA trains against a changing population of teammates",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 391.1,
+    "end_seconds": 400.875,
+    "duration_seconds": 9.775,
+    "frame": "slide-37.png"
+  },
+  {
+    "index": 38,
+    "source_slide": 36,
+    "title": "HOLA\u2019s gains depend on which generalization is tested",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 400.875,
+    "end_seconds": 412.025,
+    "duration_seconds": 11.15,
+    "frame": "slide-38.png"
+  },
+  {
+    "index": 39,
+    "source_slide": 37,
+    "title": "Current results point to three tests of adaptation",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 412.025,
+    "end_seconds": 422.45,
+    "duration_seconds": 10.425,
+    "frame": "slide-39.png"
+  },
+  {
+    "index": 40,
+    "source_slide": 38,
+    "title": "Three experiments can test whether robot teams adapt",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 422.45,
+    "end_seconds": 432.32,
+    "duration_seconds": 9.87,
+    "frame": "slide-40.png"
+  },
+  {
+    "index": 41,
+    "source_slide": 39,
+    "title": "Decide what stays local and what the team must share",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 432.32,
+    "end_seconds": 443.495,
+    "duration_seconds": 11.175,
+    "frame": "slide-41.png"
+  },
+  {
+    "index": 42,
+    "source_slide": 40,
+    "title": "What to read for each coordination problem",
+    "kind": "demo",
+    "source": "../demo.pdf",
+    "start_seconds": 443.495,
+    "end_seconds": 453.22,
+    "duration_seconds": 9.725,
+    "frame": "slide-42.png"
+  },
+  {
+    "index": 43,
+    "source_slide": 3,
+    "title": "Start with your best materials",
+    "kind": "promo_card",
+    "source": "../../../slides/research-boost-promo/ResearchBoost-Promo-Cards.pdf",
+    "start_seconds": 453.22,
+    "end_seconds": 478.625,
+    "duration_seconds": 25.405,
+    "frame": "slide-43.png"
+  }
+]

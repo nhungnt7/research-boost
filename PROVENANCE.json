@@ -1,0 +1,13 @@
+{
+  "project": "ResearchBoost",
+  "created": "2026-11-13",
+  "origin": "Standalone fork of Survey to Slides; original installation left unchanged",
+  "reference_slide_count": 46,
+  "changes_to_distributed_reference": [
+    "Removed inherited Presenter Perspective from slide 2",
+    "Cleared embedded notes; separate English narration supplied",
+    "Replaced creator metadata with project attribution"
+  ],
+  "template_sha256": "e024777a942ee61db0f722b90c39d7d35f40ca8014f282ca2119ee6352902b10",
+  "source_scope": "Historical November 2026 snapshot; see demo README"
+}

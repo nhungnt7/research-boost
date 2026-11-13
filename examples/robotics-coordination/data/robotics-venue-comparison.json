@@ -1,0 +1,63 @@
+{
+  "data": {
+    "RSS": {
+      "papers": 210,
+      "counts": {
+        "Multi-robot coordination": 11,
+        "Manipulation and grasping": 43,
+        "Planning and control": 42,
+        "Navigation and locomotion": 20,
+        "Perception and mapping": 12,
+        "Imitation and reinforcement learning": 13,
+        "VLA and foundation models": 15
+      },
+      "ambiguous": 0
+    },
+    "ICRA": {
+      "papers": 2820,
+      "counts": {
+        "Multi-robot coordination": 151,
+        "Manipulation and grasping": 382,
+        "Planning and control": 613,
+        "Navigation and locomotion": 256,
+        "Perception and mapping": 311,
+        "Imitation and reinforcement learning": 154,
+        "VLA and foundation models": 58
+      },
+      "ambiguous": 8
+    },
+    "IROS": {
+      "papers": 1929,
+      "counts": {
+        "Multi-robot coordination": 110,
+        "Manipulation and grasping": 300,
+        "Planning and control": 372,
+        "Navigation and locomotion": 245,
+        "Perception and mapping": 193,
+        "Imitation and reinforcement learning": 148,
+        "VLA and foundation models": 81
+      },
+      "ambiguous": 8
+    },
+    "CoRL": {
+      "papers": 687,
+      "counts": {
+        "Multi-robot coordination": 6,
+        "Manipulation and grasping": 178,
+        "Planning and control": 87,
+        "Navigation and locomotion": 59,
+        "Perception and mapping": 23,
+        "Imitation and reinforcement learning": 63,
+        "VLA and foundation models": 97
+      },
+      "ambiguous": 0
+    }
+  },
+  "sources": {
+    "RSS": "https://roboticsconference.org/2026/program/papers/",
+    "ICRA": "https://ras.papercept.net/conferences/conferences/ICRA26/program/",
+    "IROS": "https://2026.ieee-iros.org/program/paper_index/",
+    "CoRL": "https://2026.corl.org/program/accepted-papers"
+  },
+  "date": "2026-11-11"
+}

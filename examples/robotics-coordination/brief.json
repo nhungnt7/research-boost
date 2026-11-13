@@ -1,0 +1,29 @@
+{
+  "topic": "Multi-robot coordination",
+  "research_question": "How do robot teams coordinate shared space, timing and recovery?",
+  "mode": "keywords",
+  "seeds": [
+    "multi-robot coordination",
+    "task allocation",
+    "communication",
+    "joint manipulation",
+    "recovery"
+  ],
+  "audience": "ML researchers new to robotics",
+  "duration_minutes": 30,
+  "language": "English",
+  "years": "Historical milestones through November 2026",
+  "cutoff": "2026-11-13",
+  "exclude": [
+    "single-robot methods without a coordination contribution"
+  ],
+  "presenter_perspective": null,
+  "deliverables": [
+    "editable presentation",
+    "PDF",
+    "English speaker text",
+    "source ledger",
+    "reading path",
+    "corpus and coverage files for any statistics"
+  ]
+}

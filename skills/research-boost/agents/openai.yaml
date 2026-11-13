@@ -1,0 +1,7 @@
+interface:
+  display_name: "ResearchBoost"
+  short_description: "Build research expertise with a source-linked field map"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Use $research-boost to map a research field from my papers, keywords, researcher, or lab and create a source-linked talk and reading path."
+policy:
+  allow_implicit_invocation: true

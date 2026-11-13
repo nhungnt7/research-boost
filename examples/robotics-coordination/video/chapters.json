@@ -1,0 +1,110 @@
+[
+  {
+    "index": 1,
+    "source_slide": 1,
+    "title": "Multi-Agent Coordination",
+    "start_seconds": 0.0,
+    "end_seconds": 27.6187,
+    "duration_seconds": 27.6187,
+    "frame": "slide-01.png"
+  },
+  {
+    "index": 2,
+    "source_slide": 3,
+    "title": "Two robots must coordinate to lift one basket",
+    "start_seconds": 27.6187,
+    "end_seconds": 57.4038,
+    "duration_seconds": 29.785,
+    "frame": "slide-02.png"
+  },
+  {
+    "index": 3,
+    "source_slide": 8,
+    "title": "Robotics adds physical constraints to coordination",
+    "start_seconds": 57.4038,
+    "end_seconds": 91.4177,
+    "duration_seconds": 34.0139,
+    "frame": "slide-03.png"
+  },
+  {
+    "index": 4,
+    "source_slide": 18,
+    "title": "From assigning jobs to adapting robot teams",
+    "start_seconds": 91.4177,
+    "end_seconds": 128.7938,
+    "duration_seconds": 37.3761,
+    "frame": "slide-04.png"
+  },
+  {
+    "index": 5,
+    "source_slide": 23,
+    "title": "How we select frontier work",
+    "start_seconds": 128.7938,
+    "end_seconds": 163.2963,
+    "duration_seconds": 34.5025,
+    "frame": "slide-05.png"
+  },
+  {
+    "index": 6,
+    "source_slide": 24,
+    "title": "Four problems can stop a robot team",
+    "start_seconds": 163.2963,
+    "end_seconds": 198.1772,
+    "duration_seconds": 34.8808,
+    "frame": "slide-06.png"
+  },
+  {
+    "index": 7,
+    "source_slide": 28,
+    "title": "CHORUS trains one policy and runs it locally",
+    "start_seconds": 198.1772,
+    "end_seconds": 230.9326,
+    "duration_seconds": 32.7555,
+    "frame": "slide-07.png"
+  },
+  {
+    "index": 8,
+    "source_slide": 30,
+    "title": "Shared weights help a perturbed handover",
+    "start_seconds": 230.9326,
+    "end_seconds": 265.8009,
+    "duration_seconds": 34.8683,
+    "frame": "slide-08.png"
+  },
+  {
+    "index": 9,
+    "source_slide": 33,
+    "title": "RoboTalk improves held-out simulated tasks",
+    "start_seconds": 265.8009,
+    "end_seconds": 301.5678,
+    "duration_seconds": 35.7669,
+    "frame": "slide-09.png"
+  },
+  {
+    "index": 10,
+    "source_slide": 34,
+    "title": "New teammates require separate tests",
+    "start_seconds": 301.5678,
+    "end_seconds": 331.2202,
+    "duration_seconds": 29.6524,
+    "frame": "slide-10.png"
+  },
+  {
+    "index": 11,
+    "source_slide": 38,
+    "title": "Three experiments to test adaptation",
+    "start_seconds": 331.2202,
+    "end_seconds": 367.3675,
+    "duration_seconds": 36.1474,
+    "frame": "slide-11.png"
+  },
+  {
+    "index": 12,
+    "source_slide": 39,
+    "title": "Decide what stays local and what must be shared",
+    "start_seconds": 367.3675,
+    "end_seconds": 399.1299,
+    "duration_seconds": 31.7623,
+    "frame": "slide-12.png"
+  }
+]

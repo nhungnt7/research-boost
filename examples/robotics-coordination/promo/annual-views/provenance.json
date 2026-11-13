@@ -1,0 +1,43 @@
+{
+  "source": "../../demo.pptx",
+  "source_slide": 5,
+  "source_sha256": "e024777a942ee61db0f722b90c39d7d35f40ca8014f282ca2119ee6352902b10",
+  "description": "Original annual chart images, selected one at a time in the retained slide layout. The active year has a sidebar outline; the click instruction is replaced with automatic playback. The original chart images are reused without edits; no data or chart content is redrawn.",
+  "frames": [
+    {
+      "year": 2022,
+      "image": "2022.png",
+      "original_picture_name": "Animated annual chart 2022",
+      "original_media_member": "ppt/media/image6.png",
+      "original_image_sha256": "b0770f0bc9086ee8f6d626abd0904d604bfacd15d40cf412c5aeb9a5b4fd669a"
+    },
+    {
+      "year": 2023,
+      "image": "2023.png",
+      "original_picture_name": "Animated annual chart 2023",
+      "original_media_member": "ppt/media/image7.png",
+      "original_image_sha256": "d1c387e55d49b092b7a5e0b4e24045e1c17c4fcd3131da46052a926ef8582c94"
+    },
+    {
+      "year": 2024,
+      "image": "2024.png",
+      "original_picture_name": "Animated annual chart 2024",
+      "original_media_member": "ppt/media/image8.png",
+      "original_image_sha256": "ec39cffc8689e0731de2c6eb06b3d14fb7d45795575d0dfe9bdbd3bdb2026404"
+    },
+    {
+      "year": 2025,
+      "image": "2025.png",
+      "original_picture_name": "Animated annual chart 2025",
+      "original_media_member": "ppt/media/image9.png",
+      "original_image_sha256": "db48637ef3252c3ddfb7899a367ceb8e219798c1538638df39a07e355f3b8ccd"
+    },
+    {
+      "year": 2026,
+      "image": "2026.png",
+      "original_picture_name": "Animated annual chart 2026",
+      "original_media_member": "ppt/media/image10.png",
+      "original_image_sha256": "acaf316cb5b5c23cdaf435529a3ff32b0a154912c59d1cdb415d417587d7e1d9"
+    }
+  ]
+}

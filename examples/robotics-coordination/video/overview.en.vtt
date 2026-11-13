@@ -1,0 +1,278 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:06.230
+Welcome to this ResearchBoost overview of multi-agent coordination, with a
+focus on robot teams.
+
+00:00:06.350 --> 00:00:14.907
+The central question is simple: when one robot's action changes what
+another robot can do, how should the team decide, communicate, and
+recover?
+
+00:00:15.027 --> 00:00:23.748
+We will use selected slides from the November 2026 research demo to
+connect a concrete problem with the field's history, several frontier
+
+00:00:23.868 --> 00:00:26.849
+approaches, and experiments worth trying next.
+
+00:00:28.019 --> 00:00:30.262
+Start with two robots lifting a basket.
+
+00:00:30.382 --> 00:00:32.202
+Each arm can reach its own handle.
+
+00:00:32.322 --> 00:00:35.043
+But both need a secure grip before the lift begins.
+
+00:00:35.163 --> 00:00:38.283
+If one robot moves too early, the basket can slip.
+
+00:00:38.403 --> 00:00:44.148
+This is a timing dependency: individual competence does not guarantee a
+successful joint action.
+
+00:00:44.268 --> 00:00:48.704
+The CHORUS example uses each robot's local camera view to coordinate
+movement.
+
+00:00:48.824 --> 00:00:56.634
+Across other tasks, the dependency may instead concern shared space,
+hidden information, or a resource that several agents need.
+
+00:00:57.804 --> 00:01:01.932
+Robot teams share familiar problems with coding agents and agent markets.
+
+00:01:02.052 --> 00:01:06.885
+All must allocate work, manage dependencies, and recover when plans
+change.
+
+00:01:07.005 --> 00:01:09.792
+The physical constraints make robotics distinctive.
+
+00:01:09.912 --> 00:01:13.612
+An assignment depends on reach, payload, and travel time.
+
+00:01:13.732 --> 00:01:18.654
+Two robots can block the same aisle, and a handoff can fail if their
+actions lose synchrony.
+
+00:01:18.774 --> 00:01:22.578
+Recovery may require stabilizing a load before changing the plan.
+
+00:01:22.698 --> 00:01:30.648
+A useful comparison therefore asks which decisions must be shared, which
+can remain local, and how safety is maintained during adaptation.
+
+00:01:31.818 --> 00:01:36.253
+The history becomes easier to follow when each milestone answers a new
+constraint.
+
+00:01:36.373 --> 00:01:39.675
+Early task-allocation and warehouse systems assigned jobs.
+
+00:01:39.795 --> 00:01:43.898
+Lifelong routing addressed path conflicts as new goals arrived on a known
+map.
+
+00:01:44.018 --> 00:01:48.954
+Field systems such as CERBERUS confronted incomplete maps and unreliable
+communication.
+
+00:01:49.074 --> 00:01:53.142
+Language-based approaches such as RoCo proposed and checked joint plans.
+
+00:01:53.262 --> 00:02:01.439
+Benchmarks then tested a wider range of task dependencies, while local
+execution methods examined physical coordination from observations.
+
+00:02:01.559 --> 00:02:08.024
+Each advance leaves a question for the next: what happens when the
+environment, task, or teammate changes?
+
+00:02:09.194 --> 00:02:12.839
+To choose work worth studying, the demo uses five criteria.
+
+00:02:12.959 --> 00:02:18.873
+Begin with a challenging problem: what makes a team fail even when its
+members can do their individual jobs?
+
+00:02:18.993 --> 00:02:25.592
+Look for an elegant, usable mechanism, then ask whether it outperforms
+strong baselines under comparable conditions.
+
+00:02:25.712 --> 00:02:31.826
+Identify the responsible research groups, while treating reputation as
+context rather than evidence.
+
+00:02:31.946 --> 00:02:38.391
+Finally, examine demonstrated scaling: what grows, over what range, and at
+what quality and cost?
+
+00:02:38.511 --> 00:02:42.526
+These questions help turn a paper list into an evidence-based comparison.
+
+00:02:43.696 --> 00:02:48.817
+The frontier overview separates four coordination problems from the choice
+of decision authority.
+
+00:02:48.937 --> 00:02:55.039
+RoboBallet addresses colliding arm paths with a centralized policy that
+plans assignments and motion together.
+
+00:02:55.159 --> 00:02:59.594
+CHORUS addresses contact and timing through shared policy weights and
+local vision.
+
+00:02:59.714 --> 00:03:03.285
+RoboTalk adds communication when a teammate's progress is hidden.
+
+00:03:03.405 --> 00:03:07.372
+HOLA studies changes in partners, layouts, and team size.
+
+00:03:07.492 --> 00:03:10.137
+These approaches are evaluated in different settings.
+
+00:03:10.257 --> 00:03:17.407
+Their headline numbers should be read with the tasks, baselines, scale,
+and simulation or hardware conditions beside them.
+
+00:03:18.577 --> 00:03:22.199
+CHORUS illustrates how shared training can support local decisions.
+
+00:03:22.319 --> 00:03:27.877
+It learns one policy from coordinated demonstrations, using per-robot
+observations and actions.
+
+00:03:27.997 --> 00:03:33.497
+A robot-identifying prompt specifies which embodiment the
+vision-language-action model controls.
+
+00:03:33.617 --> 00:03:41.369
+At runtime, each robot runs its own copy, reacts to local observations,
+and infers timing from visible teammate behavior.
+
+00:03:41.489 --> 00:03:43.659
+There are no runtime messages in this setup.
+
+00:03:43.779 --> 00:03:50.163
+The important test is whether that design supports physical collaboration
+and reacts when a teammate behaves unexpectedly.
+
+00:03:51.333 --> 00:03:56.345
+In the demo's CHORUS evidence, a perturbed book handover provides a
+focused comparison.
+
+00:03:56.465 --> 00:04:04.525
+With a shared pretrained backbone, the shared-weight version succeeds in
+seventeen of twenty trials, compared with nine of twenty using separate
+
+00:04:04.645 --> 00:04:05.457
+policies.
+
+00:04:05.577 --> 00:04:10.674
+The slide also compares physical basket lifting, tape measurement, and
+book handover.
+
+00:04:10.794 --> 00:04:13.846
+These results support reactivity in the tested settings.
+
+00:04:13.966 --> 00:04:20.652
+They do not, by themselves, establish performance with arbitrary new
+robots, partners, or tasks.
+
+00:04:20.772 --> 00:04:25.031
+That distinction motivates looking separately at communication and
+generalization.
+
+00:04:26.201 --> 00:04:31.897
+RoboTalk tackles hidden teammate state with supervised traces that combine
+communication and actions.
+
+00:04:32.017 --> 00:04:40.568
+On the reported held-out kitchen tasks, the same instruction-model
+backbone moves from zero percent success before tuning to sixty-five
+percent
+
+00:04:40.688 --> 00:04:44.713
+after training on one hundred and fifty trajectories per training task.
+
+00:04:44.833 --> 00:04:52.516
+A separate, matched rationale ablation compares fifty and seventy-one
+percent within the Thinking model at thirty demonstrations per task.
+
+00:04:52.636 --> 00:04:54.422
+Keep these comparisons separate.
+
+00:04:54.542 --> 00:05:00.798
+The evidence is from simulated skill calls, with success requiring task
+completion and error-free tool use.
+
+00:05:01.968 --> 00:05:05.955
+Generalizing to a new task is different from cooperating with a new
+teammate.
+
+00:05:06.075 --> 00:05:14.257
+HOLA varies the partners and environments encountered during training and
+evaluates unseen partners, new layouts, and team sizes separately.
+
+00:05:14.377 --> 00:05:18.057
+The demo also shows physical transfer in cooperative pursuit.
+
+00:05:18.177 --> 00:05:23.994
+The broader lesson is methodological: define the change you want a team to
+handle, then test it directly.
+
+00:05:24.114 --> 00:05:30.450
+A result on one task, team, or scale should not silently become a claim
+about every form of adaptation.
+
+00:05:31.620 --> 00:05:35.731
+The next step is to turn observed limitations into controlled experiments.
+
+00:05:35.851 --> 00:05:41.912
+First, inject the same failed handoff and compare a fixed plan, a full
+replan, and local repair.
+
+00:05:42.032 --> 00:05:46.726
+Second, hold out a teammate and compare local visual cues with selective
+messages.
+
+00:05:46.846 --> 00:05:52.108
+Third, give independent fleets competing routes and compare a central
+scheduler with reservations.
+
+00:05:52.228 --> 00:05:58.907
+Measure safe completion, recovery time, communication cost, throughput,
+and deadlocks as appropriate.
+
+00:05:59.027 --> 00:06:01.905
+These are proposed tests, not reported wins.
+
+00:06:02.025 --> 00:06:06.598
+Their purpose is to reveal when a local response is enough and when the
+team needs a shared rule.
+
+00:06:07.768 --> 00:06:09.006
+Return to the basket.
+
+00:06:09.126 --> 00:06:12.443
+A robot should be able to pause or stabilize its load locally.
+
+00:06:12.563 --> 00:06:17.244
+Starting the lift depends on both robots, so that decision must be
+coordinated.
+
+00:06:17.364 --> 00:06:22.913
+Compare alternative designs under the same disruption and ask whether the
+shared job still finishes safely.
+
+00:06:23.033 --> 00:06:31.817
+ResearchBoost uses this progression to help you enter a field: understand
+the problem, explain its history, compare mechanisms and evidence, and
+
+00:06:31.937 --> 00:06:33.921
+choose a concrete next experiment.
+
+00:06:34.041 --> 00:06:38.360
+The full demo, source links, and reading path are included in the project.

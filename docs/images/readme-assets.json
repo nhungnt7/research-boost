@@ -1,0 +1,50 @@
+{
+  "source": "../../examples/robotics-coordination/demo.pptx",
+  "source_sha256": "e024777a942ee61db0f722b90c39d7d35f40ca8014f282ca2119ee6352902b10",
+  "description": "README highlights rendered from the retained demo. Images are resized for the README; original research figures retain their source attribution. The hero is project-authored SVG.",
+  "highlights": [
+    {
+      "image": "highlight-problem.png",
+      "source_slide": 3
+    },
+    {
+      "image": "highlight-landscape.png",
+      "source_slide": 5
+    },
+    {
+      "image": "highlight-history.png",
+      "source_slide": 18
+    },
+    {
+      "image": "highlight-frontier.png",
+      "source_slide": 24
+    },
+    {
+      "image": "highlight-experiments.png",
+      "source_slide": 38
+    },
+    {
+      "image": "highlight-reading.png",
+      "source_slide": 40
+    }
+  ],
+  "animation": {
+    "image": "readme-walkthrough.gif",
+    "states": [
+      "Illustrated LLM-agent background and seed-paper workflow",
+      "Source slide 3",
+      "Source slide 5: 2022",
+      "Source slide 5: 2023",
+      "Source slide 5: 2024",
+      "Source slide 5: 2025",
+      "Source slide 5: 2026",
+      "Source slide 18",
+      "Source slide 24",
+      "Source slide 38",
+      "Source slide 40"
+    ],
+    "duration_seconds": 17.5,
+    "silent_preview": true,
+    "full_video": "../../examples/robotics-coordination/promo/researchboost-promo.mp4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Multi-Agent Coordination for Robotics: A ResearchBoost Overview",
+  "duration_seconds": 399.13,
+  "selected_slides": 12,
+  "source_slides": [
+    1,
+    3,
+    8,
+    18,
+    23,
+    24,
+    28,
+    30,
+    33,
+    34,
+    38,
+    39
+  ],
+  "language": "English",
+  "voice": "Samantha",
+  "synthetic_narration": true,
+  "speech_rate_wpm": 165,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frames_per_second": 4,
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "captions": "Embedded English captions plus SRT and WebVTT",
+  "source_scope": "Selected slides from the retained November 2026 demo; no new literature search."
+}

@@ -1,0 +1,265 @@
+{
+  "domains": [
+    [
+      "Agent economies",
+      39,
+      false
+    ],
+    [
+      "Software & coding",
+      37,
+      false
+    ],
+    [
+      "Robotics & embodiment",
+      36,
+      true
+    ],
+    [
+      "Information & research",
+      28,
+      false
+    ],
+    [
+      "Tool & enterprise workflows",
+      14,
+      false
+    ],
+    [
+      "Social & human\u2013agent interaction",
+      14,
+      false
+    ]
+  ],
+  "directions": [
+    [
+      "Adaptive coordination",
+      56,
+      false
+    ],
+    [
+      "Trust & incentives",
+      42,
+      false
+    ],
+    [
+      "Verifiable execution",
+      37,
+      false
+    ],
+    [
+      "Language-guided robotics",
+      26,
+      true
+    ],
+    [
+      "Zero-shot & social teaming",
+      22,
+      false
+    ],
+    [
+      "Learned self-organization",
+      22,
+      false
+    ]
+  ],
+  "settings": [
+    [
+      "Explicit simulation",
+      26
+    ],
+    [
+      "Physical robot execution",
+      10
+    ],
+    [
+      "Physical robot data",
+      1
+    ],
+    [
+      "Game or sandbox",
+      6
+    ]
+  ],
+  "subtasks": [
+    [
+      "Manipulation / handover / household",
+      15
+    ],
+    [
+      "Navigation / search / formation",
+      8
+    ],
+    [
+      "Embodied games or sandboxes",
+      8
+    ],
+    [
+      "Mission or industrial planning",
+      6
+    ],
+    [
+      "Collaborative spatial perception",
+      1
+    ]
+  ],
+  "years": [
+    [
+      2023,
+      3
+    ],
+    [
+      2024,
+      7
+    ],
+    [
+      2025,
+      4
+    ],
+    [
+      2026,
+      22
+    ]
+  ],
+  "total": 205,
+  "robotics": 36,
+  "trend": {
+    "years": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "per_thousand": [
+      6.54,
+      4.76,
+      6.29,
+      8.3,
+      11.6
+    ],
+    "expanded_total": 1445,
+    "expanded_neurips_titles": 208,
+    "combined_total": 82619,
+    "combined_title_hits": 308
+  },
+  "direction_domain_matrix": {
+    "rows": [
+      [
+        "Adaptive coordination",
+        "23",
+        "1",
+        "3",
+        "15",
+        "9",
+        "2"
+      ],
+      [
+        "Zero-shot & social teaming",
+        "0",
+        "1",
+        "3",
+        "2",
+        "1",
+        "7"
+      ],
+      [
+        "Learned self-organization",
+        "7",
+        "0",
+        "2",
+        "6",
+        "0",
+        "1"
+      ],
+      [
+        "Trust & incentives",
+        "1",
+        "37",
+        "0",
+        "2",
+        "1",
+        "2"
+      ],
+      [
+        "Verifiable execution",
+        "6",
+        "0",
+        "2",
+        "3",
+        "3",
+        "0"
+      ],
+      [
+        "Language-guided robotics",
+        "0",
+        "0",
+        "26",
+        "0",
+        "0",
+        "2"
+      ]
+    ],
+    "robotics_studies": 36,
+    "robotics_directions": 5
+  },
+  "panel_directions": [
+    [
+      "Adaptive coordination",
+      129,
+      false,
+      "#3EEDAC"
+    ],
+    [
+      "Learned self-organization",
+      87,
+      false,
+      "#F1C754"
+    ],
+    [
+      "Verifiable execution",
+      47,
+      false,
+      "#CE82F7"
+    ],
+    [
+      "Zero-shot & social teaming",
+      18,
+      false,
+      "#FF9081"
+    ],
+    [
+      "Trust & incentives",
+      13,
+      false,
+      "#B4E777"
+    ],
+    [
+      "Language-guided robotics",
+      3,
+      false,
+      "#84CBE9"
+    ],
+    [
+      "Other / unclear",
+      11,
+      false,
+      "#A5B6B0"
+    ]
+  ],
+  "panel_direction_totals": {
+    "A": 129,
+    "L": 87,
+    "B": 3,
+    "V": 47,
+    "Z": 18,
+    "T": 13,
+    "O": 11
+  },
+  "robot_authority": {
+    "C": 11,
+    "H": 5,
+    "D": 9,
+    "O": 11
+  }
+}
