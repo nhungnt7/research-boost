@@ -1,0 +1,17 @@
+{
+  "purpose": "GitHub inline playback of the promotional walkthrough",
+  "url": "https://github.com/user-attachments/assets/49012eab-6328-414f-a09a-8fde1d4a1dfa",
+  "source": "researchboost-promo.mp4",
+  "source_sha256": "e78ed979c25fb4e4f9ed22e1fb44f7af11d22fbf08cdb61c50607207937f3840",
+  "uploaded_file_sha256": "7bbb2d9525f4491fd59259c6bbd422fcd8232b2eeb7fc82cfc36d2c510542eb3",
+  "uploaded_bytes": 9603777,
+  "resolution": [
+    1600,
+    900
+  ],
+  "duration_seconds": 478.75,
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "narration_and_timing": "Retained from the full-resolution original",
+  "browser_preview": "Loaded, readyState 4, no media error"
+}

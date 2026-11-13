@@ -2,13 +2,11 @@
 
 [PowerPoint](demo.pptx) · [PDF](demo.pdf) · [English speaker text](speaker-text.md) · [Source hyperlinks](sources.json)
 
-[Watch the ResearchBoost field walkthrough](promo/researchboost-promo.mp4)
+**Watch the ResearchBoost field walkthrough**
+
+https://github.com/user-attachments/assets/49012eab-6328-414f-a09a-8fde1d4a1dfa
 
 The promotional walkthrough starts with an illustrated LLM-agent background → seed papers → Codex + ResearchBoost → robotics deck workflow. It then uses source slides 1–40, explaining each slide's role and why it helps a newcomer understand the field. The five selection criteria appear immediately before the frontier; the paper-reading list is retained and technical appendix slides 41–46 are omitted. The annual chart on source slide 5 automatically advances through 2022–2026. English narration explains the value of each slide.
-
-[Watch the short narrated overview](video/robotics-coordination-overview.mp4)
-
-The overview selects 12 slides for a 5–8 minute English presentation, with a synthetic voice and optional captions. The complete 46-slide deck remains available above.
 
 This is a 46-slide retained November 2026 research talk from the Survey to Slides template, packaged as a ResearchBoost demo. It shows the expected depth and narrative structure, rather than a freshly rerun review. The project introduction is separate in `slides/research-boost-intro/`.
 

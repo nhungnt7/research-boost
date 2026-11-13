@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#quickstart">Get started</a> ·
   <a href="examples/robotics-coordination/demo.pptx">Example PPTX</a> ·
-  <a href="examples/robotics-coordination/promo/researchboost-promo.mp4">Watch the 7:59 demo</a> ·
+  <a href="#watch-the-skill-in-action">Watch the 7:59 demo</a> ·
   <a href="#inside-the-deck-six-things-that-help-you-understand-a-field">Explore the slides</a>
 </p>
 
@@ -32,11 +32,9 @@ ResearchBoost helps you get up to speed in a research field by expanding your st
 
 This promotional walkthrough showcases the skill’s output: an editable research presentation and the evidence behind it. The researcher supplies related papers and materials to **Codex + ResearchBoost**. The resulting presentation connects familiar agent ideas with robotics problems, evidence, and evaluation settings. The walkthrough explains **what each slide contributes and why it is needed to understand the field**.
 
-[![Animated preview: from LLM-agent background and papers to the problem, annual statistics, history, frontier, experiments, and reading path. Click to open the full narrated video.](docs/images/readme-walkthrough.gif)](examples/robotics-coordination/promo/researchboost-promo.mp4)
+https://github.com/user-attachments/assets/49012eab-6328-414f-a09a-8fde1d4a1dfa
 
-**[▶ Watch the full 7:59 promotional video with English narration](examples/robotics-coordination/promo/researchboost-promo.mp4)**
-
-*The preview animates inside this README. Open the full video for narration and all 40 main demo slides. The annual chart plays every year from 2022 to 2026; the five selection criteria appear immediately before the frontier.*
+*7:59 · English narration · All 40 main demo slides, including the 2022–2026 chart sequence and frontier-selection criteria.*
 
 ## Inside the deck: six things that help you understand a field
 
