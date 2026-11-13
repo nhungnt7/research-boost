@@ -8,7 +8,7 @@
   <a href="#quickstart">Get started</a> ·
   <a href="examples/robotics-coordination/demo.pptx">Example PPTX</a> ·
   <a href="#watch-the-skill-in-action">Watch the 7:59 demo</a> ·
-  <a href="#inside-the-deck-six-things-that-help-you-understand-a-field">Explore the slides</a>
+  <a href="#inside-the-deck-seven-things-that-help-you-understand-a-field">Explore the slides</a>
 </p>
 
 ResearchBoost helps you get up to speed in a research field by expanding your starting point—a keyword, paper, researcher, or group—into a connected view of the literature. Discover the core problems, follow how ideas evolved, map research communities, and compare the current frontier. Turn that understanding into an editable presentation, a guided reading path, and concrete questions to investigate next.
@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/49012eab-6328-414f-a09a-8fde1d4a1dfa
 
 *7:59 · English narration · All 40 main demo slides, including the 2022–2026 chart sequence and frontier-selection criteria.*
 
-## Inside the deck: six things that help you understand a field
+## Inside the deck: seven things that help you understand a field
 
 **Multi-Agent Coordination — The research landscape and a closer look at multi-robot teams**
 
@@ -56,32 +56,39 @@ The included **46-slide robotics deck** is a worked example of the skill’s out
     </td>
   </tr>
   <tr>
+    <td colspan="2" valign="top">
+      <h3>03 · Who is shaping the field?</h3>
+      <a href="examples/robotics-coordination/demo.pdf#page=15"><img src="docs/images/highlight-community.png" alt="Slide 15: a community map linking industry teams, academic labs, and standards groups to their contributions across proprietary systems, public research, and open artifacts." width="100%" /></a>
+      <p><strong>Know the community behind the work.</strong> Connect labs, industry teams, and open communities to their contributions, so you know whom to follow and where to find papers, demos, code, and standards.</p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3>03 · Why did the ideas change?</h3>
+      <h3>04 · Why did the ideas change?</h3>
       <a href="examples/robotics-coordination/demo.pdf#page=18"><img src="docs/images/highlight-history.png" alt="Slide 18: historical coordination milestones, the problems they addressed, and their limitations." width="100%" /></a>
       <p><strong>Learn the logic behind the timeline.</strong> Connect changing problems and assumptions to the ideas they made necessary.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>04 · How do frontier approaches differ?</h3>
+      <h3>05 · How do frontier approaches differ?</h3>
       <a href="examples/robotics-coordination/demo.pdf#page=24"><img src="docs/images/highlight-frontier.png" alt="Slide 24: a frontier map organized around four robot-team coordination problems." width="100%" /></a>
       <p><strong>Compare approaches on a common map.</strong> Organize representative works by problem, decision authority, mechanism, and scale before examining the details.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>05 · What could I investigate next?</h3>
+      <h3>06 · What could I investigate next?</h3>
       <a href="examples/robotics-coordination/demo.pdf#page=38"><img src="docs/images/highlight-experiments.png" alt="Slide 38: three proposed experiments to test adaptation in robot teams." width="100%" /></a>
       <p><strong>Turn understanding into a research question.</strong> Tie gaps to concrete experiments with baselines and metrics you can discuss, refine, and test.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>06 · What should I read first?</h3>
+      <h3>07 · What should I read first?</h3>
       <a href="examples/robotics-coordination/demo.pdf#page=40"><img src="docs/images/highlight-reading.png" alt="Slide 40: a reading list grouped by coordination problem, with reasons to read each work." width="100%" /></a>
       <p><strong>Leave with a route into the literature.</strong> Follow papers grouped by the problems they solve, with a reason to read each one.</p>
     </td>
   </tr>
 </table>
 
-**Build your expertise one connection at a time:** explain the problem → interpret the evidence → compare the methods → choose what to read and test.
+**Build your expertise one connection at a time:** explain the problem → interpret the evidence → map the community → compare the methods → choose what to read and test.
 
 [Download the editable demo PPTX](examples/robotics-coordination/demo.pptx) · [Browse the PDF](examples/robotics-coordination/demo.pdf) · [Read the example guide](examples/robotics-coordination/README.md)
 

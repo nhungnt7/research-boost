@@ -53,3 +53,7 @@ Updated on 14 November 2026. The README presents the video as a promotional exam
 ## Playable video on GitHub
 
 Updated on 14 November 2026. Replaced links to the repository MP4 with a GitHub-hosted video attachment in the main and robotics-example READMEs. The full 7:59 walkthrough is available through an inline player. A 1600 × 900 H.264/AAC playback copy was prepared below 10 MB, retaining the narration and timings; the original 1920 × 1080 MP4 remains unchanged in the repository. The playback copy fully decoded, and GitHub’s editor preview loaded the full-duration video with readyState 4 and no media error. Playback provenance is recorded beside the original MP4. No video-production guide or standalone audio/script downloads were added.
+
+## Community highlight in the README
+
+Updated on 14 November 2026. Added the actual community-map slide (source slide 15) as a full-width preview in the README showcase, with a caption explaining how newcomers can connect research groups and industry teams to their contributions and available artifacts. The gallery now contains seven numbered highlights and links the community preview to PDF page 15. Preview provenance and the section navigation anchor were updated. The source deck and promotional video remain unchanged.
